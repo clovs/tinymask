@@ -6,7 +6,7 @@ Install it from npm using `npm install --save tinymask`
 
 ```js
 var TinyMask = require('tinymask')
-var maskInstance = TinyMask('9999-9999');
+var maskInstance = new TinyMask('9999-9999');
 
 var result = maskInstance.mask('12345678');
 
